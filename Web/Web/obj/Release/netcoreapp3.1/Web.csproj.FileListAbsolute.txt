@@ -1,0 +1,14 @@
+/Users/dru/Documents/Coding/sauMenu/Web/Web/bin/Release/netcoreapp3.1/Web.deps.json
+/Users/dru/Documents/Coding/sauMenu/Web/Web/bin/Release/netcoreapp3.1/Web.runtimeconfig.json
+/Users/dru/Documents/Coding/sauMenu/Web/Web/bin/Release/netcoreapp3.1/Web.runtimeconfig.dev.json
+/Users/dru/Documents/Coding/sauMenu/Web/Web/bin/Release/netcoreapp3.1/Web.dll
+/Users/dru/Documents/Coding/sauMenu/Web/Web/bin/Release/netcoreapp3.1/Web.pdb
+/Users/dru/Documents/Coding/sauMenu/Web/Web/bin/Release/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/dru/Documents/Coding/sauMenu/Web/Web/bin/Release/netcoreapp3.1/WebDriver.dll
+/Users/dru/Documents/Coding/sauMenu/Web/Web/obj/Release/netcoreapp3.1/Web.AssemblyInfoInputs.cache
+/Users/dru/Documents/Coding/sauMenu/Web/Web/obj/Release/netcoreapp3.1/Web.AssemblyInfo.cs
+/Users/dru/Documents/Coding/sauMenu/Web/Web/obj/Release/netcoreapp3.1/Web.csproj.CoreCompileInputs.cache
+/Users/dru/Documents/Coding/sauMenu/Web/Web/obj/Release/netcoreapp3.1/Web.csproj.CopyComplete
+/Users/dru/Documents/Coding/sauMenu/Web/Web/obj/Release/netcoreapp3.1/Web.dll
+/Users/dru/Documents/Coding/sauMenu/Web/Web/obj/Release/netcoreapp3.1/Web.pdb
+/Users/dru/Documents/Coding/sauMenu/Web/Web/obj/Release/netcoreapp3.1/Web.genruntimeconfig.cache
