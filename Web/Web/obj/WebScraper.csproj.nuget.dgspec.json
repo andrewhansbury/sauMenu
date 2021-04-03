@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dru/Documents/Coding/sauMenu/Web/Web/WebScraper.csproj": {}
+    "C:\\Code\\sau menu\\sauMenu\\Web\\Web\\WebScraper.csproj": {}
   },
   "projects": {
-    "/Users/dru/Documents/Coding/sauMenu/Web/Web/WebScraper.csproj": {
+    "C:\\Code\\sau menu\\sauMenu\\Web\\Web\\WebScraper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dru/Documents/Coding/sauMenu/Web/Web/WebScraper.csproj",
+        "projectUniqueName": "C:\\Code\\sau menu\\sauMenu\\Web\\Web\\WebScraper.csproj",
         "projectName": "WebScraper",
-        "projectPath": "/Users/dru/Documents/Coding/sauMenu/Web/Web/WebScraper.csproj",
-        "packagesPath": "/Users/dru/.nuget/packages/",
-        "outputPath": "/Users/dru/Documents/Coding/sauMenu/Web/Web/obj/",
+        "projectPath": "C:\\Code\\sau menu\\sauMenu\\Web\\Web\\WebScraper.csproj",
+        "packagesPath": "C:\\Users\\Dru\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\sau menu\\sauMenu\\Web\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dru/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Dru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
