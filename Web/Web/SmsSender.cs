@@ -1,12 +1,13 @@
 ﻿using System.Threading;
 using System.Net.Mail;
 using System.Net;
+using System;
 
 namespace Web
 {
     public class SmsSender
     {
-        public void SendSMS()
+        public void SendSMS(string text)
         {
             var smtpClient = new SmtpClient("smtp.gmail.com")
             {
@@ -20,8 +21,9 @@ namespace Web
             message.From = new MailAddress("saumenu@gmail.com");
 
             message.To.Add(new MailAddress("9095226733@vtext.com"));
-            message.Body = "I'm Starting to get pretty hungry";
+            message.Body = text;
             smtpClient.Send(message);
+            Console.WriteLine("Text Sent!");
 
             /*
                 ATT: Compose a new email and use@txt.att.net. For example, 5551234567@txt.att.net.
