@@ -18,7 +18,7 @@ namespace Web
 
 
             var message = new MailMessage();
-            //message.From = new MailAddress("saumenu@gmail.com");
+            message.From = new MailAddress("saumenu@gmail.com");
 
             message.To.Add(new MailAddress("6178949230@vtext.com"));
             message.Body = text;

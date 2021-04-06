@@ -13,19 +13,19 @@
 /Users/dru/Documents/Coding/sauMenu/Web/Web/obj/Debug/netcoreapp3.1/WebScraper.dll
 /Users/dru/Documents/Coding/sauMenu/Web/Web/obj/Debug/netcoreapp3.1/WebScraper.pdb
 /Users/dru/Documents/Coding/sauMenu/Web/Web/obj/Debug/netcoreapp3.1/WebScraper.genruntimeconfig.cache
-C:/Code/sau menu/sauMenu/Web/Web/bin/Debug/netcoreapp3.1/WebScraper.exe
-C:/Code/sau menu/sauMenu/Web/Web/bin/Debug/netcoreapp3.1/WebScraper.deps.json
-C:/Code/sau menu/sauMenu/Web/Web/bin/Debug/netcoreapp3.1/WebScraper.runtimeconfig.json
-C:/Code/sau menu/sauMenu/Web/Web/bin/Debug/netcoreapp3.1/WebScraper.runtimeconfig.dev.json
-C:/Code/sau menu/sauMenu/Web/Web/bin/Debug/netcoreapp3.1/WebScraper.dll
-C:/Code/sau menu/sauMenu/Web/Web/bin/Debug/netcoreapp3.1/WebScraper.pdb
-C:/Code/sau menu/sauMenu/Web/Web/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
-C:/Code/sau menu/sauMenu/Web/Web/bin/Debug/netcoreapp3.1/WebDriver.dll
-C:/Code/sau menu/sauMenu/Web/Web/obj/Debug/netcoreapp3.1/WebScraper.csprojAssemblyReference.cache
-C:/Code/sau menu/sauMenu/Web/Web/obj/Debug/netcoreapp3.1/WebScraper.AssemblyInfoInputs.cache
-C:/Code/sau menu/sauMenu/Web/Web/obj/Debug/netcoreapp3.1/WebScraper.AssemblyInfo.cs
-C:/Code/sau menu/sauMenu/Web/Web/obj/Debug/netcoreapp3.1/WebScraper.csproj.CoreCompileInputs.cache
-C:/Code/sau menu/sauMenu/Web/Web/obj/Debug/netcoreapp3.1/WebScraper.csproj.CopyComplete
-C:/Code/sau menu/sauMenu/Web/Web/obj/Debug/netcoreapp3.1/WebScraper.dll
-C:/Code/sau menu/sauMenu/Web/Web/obj/Debug/netcoreapp3.1/WebScraper.pdb
-C:/Code/sau menu/sauMenu/Web/Web/obj/Debug/netcoreapp3.1/WebScraper.genruntimeconfig.cache
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\WebScraper.exe
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\WebScraper.deps.json
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\WebScraper.runtimeconfig.json
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\WebScraper.runtimeconfig.dev.json
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\WebScraper.dll
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\WebScraper.pdb
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.AssemblyInfoInputs.cache
+C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.AssemblyInfo.cs
+C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.csproj.CoreCompileInputs.cache
+C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.csproj.CopyComplete
+C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.dll
+C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.pdb
+C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.genruntimeconfig.cache
+C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.csprojAssemblyReference.cache
