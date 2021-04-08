@@ -16,9 +16,11 @@ namespace Web
         // then writes info into dictionary
         // Known bugs: "when dinner is "Taco Bar" the "Bar" will cause the string to end because thats the word im searching for
         {
-            Dictionary<string, Dictionary<string, string>> meals = new Dictionary<string, Dictionary<string, string>> ();
-            Dictionary<string, string> menu = new Dictionary<string, string>();
+            //Dictionary<string, Dictionary<string, string>> menu = new Dictionary<string, Dictionary<string, string>> ();
+            //Dictionary<string, string> foods = new Dictionary<string, string>();
+            string[,] menu = new string[7, 3];
             List<string> days = new List<string>();
+            List<string> meals = new List<string>() {"breakfast", "lunch", "dinner"};
             List<string> breakfasts = new List<string>() { "Breakfast only in Village Market \n" };
             List<string> lunches = new List<string>() { "Kr's Opens at 4\n" }; 
             List<string> dinners = new List<string>() { "Kr's is Open until 10\n" };
@@ -54,21 +56,24 @@ namespace Web
             dinners.Add("Kr's Opens at 6!\n");
 
 
-            /*
-            foreach(KeyValuePair<string, string> val in menu)
+            for (int day= 0; day<7; day++)
             {
-                Console.WriteLine("{0} : {1}", val.Key, val.Value);
-                Console.WriteLine();
-                Console.WriteLine(); 
+                menu[day, 0] = breakfasts[day];
+                menu[day, 1] = lunches[day];
+                menu[day, 2] = dinners[day];
+
             }
-            */
 
-            //Console.WriteLine(readText);
-            //Thread.Sleep(5000);
+            for (int day=0; day <7; day++)
+            {
+                for (int meal=0; meal<3; meal++)
+                {
+                    Console.WriteLine(days[day] + ": ");
+                }
+            }
 
 
-            meals.Add("Sunday", null);
-
+          
 
             string allmeals = "";
             foreach (var str in breakfasts)
@@ -85,7 +90,7 @@ namespace Web
             }
 
 
-            Console.WriteLine(allmeals);
+            //Console.WriteLine(allmeals);
             return allmeals;
 
         }
