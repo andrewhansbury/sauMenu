@@ -8,8 +8,9 @@ namespace Web
         {
             WebScraper meals = new WebScraper();
 
-            SmsSender sms = new SmsSender();
-            sms.SendSMS(meals.GetMeals());
+            meals.GetMeals();
+            //SmsSender sms = new SmsSender();
+            //sms.SendSMS(meals.GetMeals());
         }
     }
 }
