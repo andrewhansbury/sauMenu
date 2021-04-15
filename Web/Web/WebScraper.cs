@@ -67,6 +67,7 @@ namespace Web
 
         }
 
+
         public static string GetMeals(string strSource, string strStart, string strEnd)
         {
             if (strSource.Contains(strStart))
@@ -82,6 +83,7 @@ namespace Web
 
             return "";
         }
+
 
         public void writeFile()
         {
