@@ -23,9 +23,15 @@ C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\WebDriver.dll
 C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.AssemblyInfoInputs.cache
 C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.AssemblyInfo.cs
-C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.csproj.CoreCompileInputs.cache
 C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.csproj.CopyComplete
 C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.dll
 C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.pdb
 C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.genruntimeconfig.cache
 C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.csprojAssemblyReference.cache
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Code\sau menu\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\WebScraper.csproj.CoreCompileInputs.cache
