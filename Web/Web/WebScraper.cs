@@ -11,7 +11,7 @@ namespace Web
 {
     public class WebScraper
     {
-        public string GetMeals()
+        public string [,] GetMeals()
         // Writes webscrapes meals from southern site
         // and organizes them into an array of dictionaries
         // then writes info into dictionary
@@ -26,9 +26,10 @@ namespace Web
             breakfasts[0] = "Breakfast only in Village Market \n";
             lunches[0] = "Kr's Opens at 4\n";
             dinners[0] = ("Kr's is Open until 10\n");
-            
 
-            IWebDriver driver = new ChromeDriver();
+            var chromeOptions = new ChromeOptions();
+            chromeOptions.AddArguments("headless");
+            IWebDriver driver = new ChromeDriver(chromeOptions);
             driver.Navigate().GoToUrl("https://www.southern.edu/administration/food/index.html");
        
             var titles = driver.FindElements(By.XPath("//*[@id=\"SouthernFramework\"]/div/div/main/div[2]/div/div/div/a"));
@@ -56,14 +57,14 @@ namespace Web
                 menu[day, 2] = dinners[day];
             }
 
-            for (int day=0; day <7; day++)
-            {  
-                Console.WriteLine(days[day] + " Breakfast : " + menu[day,0]);
-                Console.WriteLine(days[day] + " Lunch : " + menu[day, 1]);
-                Console.WriteLine(days[day] + " Dinner : " + menu[day, 2]);
-            }
+            //for (int day=0; day <7; day++)
+            //{  
+            //    Console.WriteLine(days[day] + " Breakfast : " + menu[day,0]);
+            //    Console.WriteLine(days[day] + " Lunch : " + menu[day, 1]);
+            //    Console.WriteLine(days[day] + " Dinner : " + menu[day, 2]);
+            //}
 
-            return "";
+            return menu;
 
         }
 

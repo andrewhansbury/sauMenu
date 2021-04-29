@@ -12,17 +12,18 @@ namespace Web
         static void Main(string[] args)
         {
             
-
             WebScraper meals = new WebScraper();
 
+            
             //meals.GetMeals();
-
             DatabaseConnection database = new DatabaseConnection();
-            database.databaseConnect();
-            
-           
 
-            
+            string [,] meal_array = meals.GetMeals();
+            database.updateMeals(meal_array);
+            database.printMealsTable();
+
+
+
             //SmsSender sms = new SmsSender();
             //sms.SendSMS(meals.GetMeals());
         }
