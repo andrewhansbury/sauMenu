@@ -39,7 +39,16 @@ namespace Web
         }
 
 
+        public void clearMeals()
+        {
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            SqlCommand command = connection.CreateCommand();
+            command.CommandText = "UPDATE Meals SET Breakfast = NULL, LUNCH = NULL, Dinner=NULL;";
+            command.ExecuteNonQuery();
+            connection.Close();
 
+        }
 
         public void printMealsTable()
         {
