@@ -365,7 +365,7 @@
           "lib/netstandard2.0/WebDriver.dll": {}
         }
       },
-      "Selenium.WebDriver.ChromeDriver/89.0.4389.2300": {
+      "Selenium.WebDriver.ChromeDriver/90.0.4430.2400": {
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
@@ -2062,10 +2062,10 @@
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/89.0.4389.2300": {
-      "sha512": "/lnt6U3hogvJtFBP9l9Vm3F7zVBTClCANeVzcyWwyUf/uW686KEgGU+9x6sebstjd02qrmvcP42MKHTID1tq/A==",
+    "Selenium.WebDriver.ChromeDriver/90.0.4430.2400": {
+      "sha512": "poYw2JgVJ8obMYUSnfuucxQMrMusQiA3H2dXhw3bOaFm/bweTEAvhK8RVq+5zfjmTaj7COMYfIjhWJU0rPUabQ==",
       "type": "package",
-      "path": "selenium.webdriver.chromedriver/89.0.4389.2300",
+      "path": "selenium.webdriver.chromedriver/90.0.4430.2400",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2075,7 +2075,7 @@
         "driver/mac64/chromedriver",
         "driver/win32/chromedriver.exe",
         "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.89.0.4389.2300.nupkg.sha512",
+        "selenium.webdriver.chromedriver.90.0.4430.2400.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
     },
@@ -5674,31 +5674,29 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Selenium.WebDriver >= 3.141.0",
-      "Selenium.WebDriver.ChromeDriver >= 89.0.4389.2300",
+      "Selenium.WebDriver.ChromeDriver >= 90.0.4430.2400",
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dru\\.nuget\\packages\\": {}
+    "/Users/dru/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\sau menu\\sauMenu\\Web\\Web\\SauMenu.csproj",
+      "projectUniqueName": "/Users/dru/Documents/Coding/sauMenu/Web/Web/SauMenu.csproj",
       "projectName": "SauMenu",
-      "projectPath": "C:\\Code\\sau menu\\sauMenu\\Web\\Web\\SauMenu.csproj",
-      "packagesPath": "C:\\Users\\Dru\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\sau menu\\sauMenu\\Web\\Web\\obj\\",
+      "projectPath": "/Users/dru/Documents/Coding/sauMenu/Web/Web/SauMenu.csproj",
+      "packagesPath": "/Users/dru/.nuget/packages/",
+      "outputPath": "/Users/dru/Documents/Coding/sauMenu/Web/Web/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dru\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/dru/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5721,7 +5719,7 @@
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
-            "version": "[89.0.4389.2300, )"
+            "version": "[90.0.4430.2400, )"
           },
           "System.Data.SqlClient": {
             "target": "Package",
@@ -5743,7 +5741,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
       }
     }
   }

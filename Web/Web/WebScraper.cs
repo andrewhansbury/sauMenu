@@ -27,9 +27,9 @@ namespace Web
             lunches[0] = "Kr's Opens at 4\n";
             dinners[0] = ("Kr's is Open until 10\n");
 
-            var chromeOptions = new ChromeOptions();
-            chromeOptions.AddArguments("headless");
-            IWebDriver driver = new ChromeDriver(chromeOptions);
+            //var chromeOptions = new ChromeOptions();
+            //chromeOptions.AddArguments("headless");
+            IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://www.southern.edu/administration/food/index.html");
        
             var titles = driver.FindElements(By.XPath("//*[@id=\"SouthernFramework\"]/div/div/main/div[2]/div/div/div/a"));
@@ -57,12 +57,12 @@ namespace Web
                 menu[day, 2] = dinners[day];
             }
 
-            //for (int day=0; day <7; day++)
-            //{  
-            //    Console.WriteLine(days[day] + " Breakfast : " + menu[day,0]);
-            //    Console.WriteLine(days[day] + " Lunch : " + menu[day, 1]);
-            //    Console.WriteLine(days[day] + " Dinner : " + menu[day, 2]);
-            //}
+            for (int day=0; day <7; day++)
+            {  
+                Console.WriteLine(days[day] + " Breakfast : " + menu[day,0]);
+                Console.WriteLine(days[day] + " Lunch : " + menu[day, 1]);
+                Console.WriteLine(days[day] + " Dinner : " + menu[day, 2]);
+            }
 
             return menu;
 
