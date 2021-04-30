@@ -14,7 +14,8 @@ namespace Web
             
             WebScraper meals = new WebScraper();
 
-            
+            //sms.SendSMS(meals.GetMeals());
+
             //meals.GetMeals();
             DatabaseConnection database = new DatabaseConnection();
 
@@ -25,7 +26,7 @@ namespace Web
 
 
             //SmsSender sms = new SmsSender();
-            //sms.SendSMS(meals.GetMeals());
+            
         }
     }
 }

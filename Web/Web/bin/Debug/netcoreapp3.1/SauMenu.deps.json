@@ -9,7 +9,7 @@
       "SauMenu/1.0.0": {
         "dependencies": {
           "Selenium.WebDriver": "3.141.0",
-          "Selenium.WebDriver.ChromeDriver": "89.0.4389.2300",
+          "Selenium.WebDriver.ChromeDriver": "90.0.4430.2400",
           "System.Data.SqlClient": "4.8.2"
         },
         "runtime": {
@@ -208,7 +208,7 @@
           }
         }
       },
-      "Selenium.WebDriver.ChromeDriver/89.0.4389.2300": {},
+      "Selenium.WebDriver.ChromeDriver/90.0.4430.2400": {},
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1107,12 +1107,12 @@
       "path": "selenium.webdriver/3.141.0",
       "hashPath": "selenium.webdriver.3.141.0.nupkg.sha512"
     },
-    "Selenium.WebDriver.ChromeDriver/89.0.4389.2300": {
+    "Selenium.WebDriver.ChromeDriver/90.0.4430.2400": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/lnt6U3hogvJtFBP9l9Vm3F7zVBTClCANeVzcyWwyUf/uW686KEgGU+9x6sebstjd02qrmvcP42MKHTID1tq/A==",
-      "path": "selenium.webdriver.chromedriver/89.0.4389.2300",
-      "hashPath": "selenium.webdriver.chromedriver.89.0.4389.2300.nupkg.sha512"
+      "sha512": "sha512-poYw2JgVJ8obMYUSnfuucxQMrMusQiA3H2dXhw3bOaFm/bweTEAvhK8RVq+5zfjmTaj7COMYfIjhWJU0rPUabQ==",
+      "path": "selenium.webdriver.chromedriver/90.0.4430.2400",
+      "hashPath": "selenium.webdriver.chromedriver.90.0.4430.2400.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

@@ -21,7 +21,7 @@ namespace Web
             message.From = new MailAddress("saumenu@gmail.com");
 
             //message.To.Add(new MailAddress("6178949230@vtext.com"));
-            message.To.Add(new MailAddress("6178949230@vtext.com"));
+            message.To.Add(new MailAddress("5012532257@vtext.com"));
             message.Body = text;
             smtpClient.Send(message);
             Console.WriteLine("Text Sent!");
