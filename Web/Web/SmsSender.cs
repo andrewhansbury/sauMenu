@@ -20,8 +20,9 @@ namespace Web
             var message = new MailMessage();
             message.From = new MailAddress("saumenu@gmail.com");
 
+            // 5012532257
             //message.To.Add(new MailAddress("6178949230@vtext.com"));
-            message.To.Add(new MailAddress("5012532257@vtext.com"));
+            message.To.Add(new MailAddress("9098107282@messaging.sprintpcs.com"));
             message.Body = text;
             smtpClient.Send(message);
             Console.WriteLine("Text Sent!");
