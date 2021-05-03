@@ -1,18 +1,20 @@
 ﻿<Properties StartupConfiguration="{564FA317-2006-4987-943D-F6B5A711C67D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Web/WebScraper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Web/Program.cs">
     <Files>
-      <File FileName="Web/Program.cs" Line="12" Column="40" />
-      <File FileName="Web/smsSender.cs" />
+      <File FileName="Web/Program.cs" Line="19" Column="14" />
+      <File FileName="Web/DatabaseConnection.cs" Line="15" Column="9" />
+      <File FileName="Web/WebScraper.cs" Line="60" Column="13" />
       <File FileName="Web/Meals.txt" />
-      <File FileName="Web/WebScraper.cs" Line="1" Column="1" />
-      <File FileName="Web/DatabaseConnection.cs" Line="18" Column="119" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WebScraper" expanded="True">
-            <Node name="WebScraper" expanded="True" selected="True">
-              <Node name="Dependencies" expanded="True" />
+            <Node name="SauMenu" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
