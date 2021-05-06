@@ -19,11 +19,10 @@ namespace Web
             
             DatabaseConnection database = new DatabaseConnection();
 
-           
 
-            
 
             database.updateMeals(meals.GetMeals());
+            //database.clearMeals();
             database.printMealsTable();
 
 

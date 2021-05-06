@@ -7,6 +7,8 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 
+//Update to make: Get text for food when it is BOLD on the southern site, should pull from site better
+
 namespace Web
 {
     public class WebScraper

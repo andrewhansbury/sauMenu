@@ -5684,11 +5684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dru\\Desktop\\CODE\\sauMenu\\Web\\Web\\SauMenu.csproj",
+      "projectUniqueName": "C:\\Code\\sau menu\\sauMenu\\Web\\Web\\SauMenu.csproj",
       "projectName": "SauMenu",
-      "projectPath": "C:\\Users\\Dru\\Desktop\\CODE\\sauMenu\\Web\\Web\\SauMenu.csproj",
+      "projectPath": "C:\\Code\\sau menu\\sauMenu\\Web\\Web\\SauMenu.csproj",
       "packagesPath": "C:\\Users\\Dru\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dru\\Desktop\\CODE\\sauMenu\\Web\\Web\\obj\\",
+      "outputPath": "C:\\Code\\sau menu\\sauMenu\\Web\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dru\\AppData\\Roaming\\NuGet\\NuGet.Config",

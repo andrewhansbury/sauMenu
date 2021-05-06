@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RZXu0PGRm77WpmIrQ9vO8aRICagqUHTQIG7VzmKRcmPLsVLPkgJYlvfGcwthWAqa8s6y0r9TMIxBgMukUZEQPA==",
+  "dgSpecHash": "6OUK36MwB22QRxW2DgDL2uHixvD32JP9dQqKMVRzL3ykPQI4iP0qsBF0rHBietp6y2g/r2DoXqj9XfDPlgqXOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dru\\Desktop\\CODE\\sauMenu\\Web\\Web\\SauMenu.csproj",
+  "projectFilePath": "C:\\Code\\sau menu\\sauMenu\\Web\\Web\\SauMenu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dru\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\Dru\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
