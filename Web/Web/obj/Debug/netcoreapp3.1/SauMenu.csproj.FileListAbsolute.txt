@@ -40,3 +40,25 @@ C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\SauMenu.csproj.CopyComp
 C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\SauMenu.dll
 C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\SauMenu.pdb
 C:\Code\sau menu\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\SauMenu.genruntimeconfig.cache
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\SauMenu.exe
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\SauMenu.deps.json
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\SauMenu.runtimeconfig.json
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\SauMenu.runtimeconfig.dev.json
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\SauMenu.dll
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\SauMenu.pdb
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\SauMenu.csprojAssemblyReference.cache
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\SauMenu.AssemblyInfoInputs.cache
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\SauMenu.AssemblyInfo.cs
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\SauMenu.csproj.CoreCompileInputs.cache
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\SauMenu.csproj.CopyComplete
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\SauMenu.dll
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\SauMenu.pdb
+C:\Users\Dru\Desktop\CODE\sauMenu\Web\Web\obj\Debug\netcoreapp3.1\SauMenu.genruntimeconfig.cache

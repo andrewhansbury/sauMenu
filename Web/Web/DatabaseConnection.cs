@@ -9,7 +9,7 @@ namespace Web
     class DatabaseConnection
     {
         
-        string connectionString = @"Server=DESKTOP-3M3LSKK\SQLEXPRESS;Database=saumenudb;User Id = sa; password=Andr1234;Trusted_Connection=False;MultipleActiveResultSets=true;"
+        string connectionString = @"Server=10.14.2.24\SQLEXPRESS;Database=saumenudb;User Id = sa; password=Andr1234;Trusted_Connection=False;MultipleActiveResultSets=true;"
 ;
         
         
@@ -64,10 +64,72 @@ namespace Web
             {
                 foreach (var item in dataRow.ItemArray)
                 {
-                    Console.WriteLine(item);
+                    //Console.WriteLine(item);
                 }
             }
         }
+
+        public string getTodayMeals()
+        {
+            DayOfWeek wk = DateTime.Today.DayOfWeek;
+            Console.WriteLine("___________________________");
+
+            string text = "Today's Meals:\n\n";
+
+            DataTable mealsTable = new DataTable();
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            string query = "SELECT * FROM Meals WHERE Day = @day;";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@day", wk.ToString());
+            Console.WriteLine(wk.ToString());
+
+            
+            mealsTable.Load(command.ExecuteReader());
+            connection.Close();
+            
+            foreach (DataRow dataRow in mealsTable.Rows)
+            {
+                Console.WriteLine(dataRow.ItemArray);
+                foreach (var item in dataRow.ItemArray)
+                {
+                    Console.WriteLine(item);
+                    text += item;
+                    text += "\n";
+                }
+            }
+
+            Console.WriteLine(text);
+            return text;
+        }
+
+        public void sendAll(string text)
+        {
+            SmsSender sms = new SmsSender();
+
+            DataTable mealsTable = new DataTable();
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            string query = "SELECT DISTINCT number FROM Users ";
+            SqlCommand command = new SqlCommand(query, connection);
+            
+          
+
+
+            mealsTable.Load(command.ExecuteReader());
+            connection.Close();
+
+            foreach (DataRow dataRow in mealsTable.Rows)
+            {
+                Console.WriteLine(dataRow.ItemArray);
+                foreach (var item in dataRow.ItemArray)
+                {
+                    sms.SendSMS(text,item.ToString());
+                }
+            }
+
+        }
+        
         
     }
 }

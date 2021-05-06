@@ -7,28 +7,27 @@ namespace Web
 {
     class Program
     {
-      
+
 
         static void Main(string[] args)
         {
-            
+
             WebScraper meals = new WebScraper();
             SmsSender sms = new SmsSender();
 
-
-            
             DatabaseConnection database = new DatabaseConnection();
-
 
 
             database.updateMeals(meals.GetMeals());
             //database.clearMeals();
-            database.printMealsTable();
+            //database.printMealsTable();
 
-
-
+            string text = database.getTodayMeals();
+            database.sendAll(text);
+            
             
 
         }
+            
     }
 }
