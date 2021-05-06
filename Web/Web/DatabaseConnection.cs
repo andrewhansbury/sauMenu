@@ -8,7 +8,7 @@ namespace Web
 {
     class DatabaseConnection
     {
-        //
+        
         string connectionString = @"Server=DESKTOP-3M3LSKK\SQLEXPRESS;Database=saumenudb;User Id = sa; password=Andr1234;Trusted_Connection=False;MultipleActiveResultSets=true;"
 ;
         
